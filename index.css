@@ -1,0 +1,48 @@
+.header {
+    background-color: hsl(334, 77%, 44%);
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 30px;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 50px;
+    padding: 30px;
+
+  }
+.geeks {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+   
+}
+  
+.geeks img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+  
+.geeks:hover img {
+    transform: scale(0.79);
+}
+div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 45px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: white;
+  }
+

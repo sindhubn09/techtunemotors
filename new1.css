@@ -1,0 +1,11 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 30px;
+
+  }
+  .button{
+    width: 310px;
+    height: 65px;
+  }

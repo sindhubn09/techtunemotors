@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Booking Form</title>
+    <style>
+    .header {
+        background-color: hsl(334, 77%, 44%);
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .page {
+        background-color: hsl(210, 1%, 71%);
+        color: rgb(3, 0, 0);
+        padding: 20px 20px;
+        text-align:initial;
+        font-size: 18px;
+    }
+    .button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align:center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #1560bb;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+ position:absolute;
+ left:50%;
+}
+
+.button:hover {background-color: #245dc8}
+
+.button:active {
+  background-color: #c40a42;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+    </style>
+</head>
+<body>
+    <div class="header"> <b>Appointment Booking Form</b></div>
+
+    <hr width="1500px;" color="crimson"  size="3" align="left">
+    <form><div class="page">
+        <label><b>Select an Appointment Date</b></label><br/>
+        <input type="date"><br/>
+        <label><b>Select an Appointment Time</b></label><br/>
+        <input type="time"><br/>
+
+        <label><b>Vehicle Type</b></label><br/>
+        <input type="text" size="70"><br/>
+        <label><b>Vehicle Number</b></label><br/>
+        <input type="text" size="70"><br/>
+        <label><b>Model</b></label><br/>
+        <input type="text" size="70"><br/>
+        <label><b>Special Intructions</b></label><br/>
+        <textarea rows="5"></textarea>
+        <br/>
+        <br/>
+        <h2>Customer Information</h2><br/>
+        <hr width="1480px;" color="crimson"  size="3" align="left">
+        <label><b>Name</b></label><br/>
+        <label>First Name </label>
+        <input type="text">&nbsp;
+        <label>Last Name </label><input type="text">
+        <br/>
+        <label><b>Phone Number</b></label><br/>
+        <input type="tel" size="50"><br/>
+        <label><b>Email</b></label><br/>
+        <input type="email" size="70"><br/>
+        <label><b>Address</b></label><br/>
+        <textarea rows="5" ></textarea><br/>
+       </form>
+    </div>
+     
+    <a href="thank_you.html"> <button class="button">BOOK NOW</button></a>
+    <br/>
+    <br/>
+    <br/><br/><br/><br/>
+ 
+</body>
+</html>
